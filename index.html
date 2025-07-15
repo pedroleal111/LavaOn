@@ -1,11 +1,46 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>LavaOn</title>
-  </head>
-  <body>
-    <h1>Bem-vindo ao site da LavaOn!</h1>
-    <p>Site em construção. Volte em breve amigo!</p>
-  </body>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lava On</title>
+
+  <!-- Fonte Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Lava On</div>
+    <nav>
+      <ul>
+        <li><a href="#">Quem somos</a></li>
+        <li><a href="#">Nossas lojas</a></li>
+        <li><a href="#">Encontre uma loja</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+    <div class="buttons">
+      <button>Quero um negócio Lava On</button>
+      <button>Quero no meu condomínio</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Utilize nossas lojas de Autoatendimento</h1>
+      <p>Encontre a loja mais perto de você e conte com a qualidade Lava On para lavar suas roupas.</p>
+      <button onclick="verMais()">Quero saber mais</button>
+    </div>
+    <div class="hero-image">
+      <img src="lavanderia.jpg" alt="Lavanderia" />
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
 </html>
